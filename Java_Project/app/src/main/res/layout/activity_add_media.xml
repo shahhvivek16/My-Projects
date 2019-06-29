@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * Created by Shivani Desai on 15th Nov 2018
+    * This class enables users to add media and store it in the database
+    * last edited on 5th Dec 2018   -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMediaActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/headerNav"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/tvAddMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/headerNav"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtAddMedia"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etMediaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAddMedia"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/txtMediaTitle"
+        android:inputType="text"
+        android:padding="5dp"
+        app:met_floatingLabel="highlight" />                <!--Material design library -->
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etMediaArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMediaName"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/txtMediaArtist"
+        android:inputType="text"
+        android:padding="5dp"
+        app:met_floatingLabel="highlight" />
+
+    <Spinner
+        android:id="@+id/etMediaType"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/headerNav"
+        android:layout_alignBottom="@+id/headerNav"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="-418dp"
+        android:padding="5dp" />                                <!-- Spinner to get media type -->
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etMediaUrl"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerNav"
+        android:layout_alignBottom="@+id/tvAddMedia"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="-421dp"
+        android:hint="@string/txtMediaUrl"
+        android:inputType="textUri"
+        android:padding="5dp"
+        app:met_floatingLabel="highlight" />
+
+
+    <TimePicker
+        android:id="@+id/tpDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        android:layout_alignTop="@+id/headerNav"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="276dp"
+        android:timePickerMode="spinner">                           <!--Time picker to get media duration -->
+    </TimePicker>
+
+    <Button
+        android:id="@+id/btnAddMedia"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMediaUrl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="443dp"
+        android:background="@color/colorYellow"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="ADD"
+        android:textSize="20sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabSample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_nav_cc_sampling_plus"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        app:backgroundTint="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etMediaName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="334dp"
+        android:text="Duration"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

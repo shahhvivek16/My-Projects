@@ -1,0 +1,20 @@
+USE CASE CLICK STREAMS
+
+1) Detect media and rate it.
+	Home --> Click detect media --> Detection is successful --> Brought to Media info page --> Click "rate" --> brought to Booyah! screen --> Does the rating --> Presses "stop" --> Brought to Media Info page, which now shows user's new rating.
+	
+	
+2) Try and fail to detect media and rate it.
+	Home --> Click detect media --> Detection fails, error message shown --> Click "Search Media" --> User enters name of the media --> On key up, list refreshes with a fuzzy search --> User finds correct item --> Presses on item --> Brought to "Media Info" page --> Presses "Rate" --> brought to Booyah! screen --> Does the rating --> Presses "stop" --> Brought to Media Info page, which now shows user's new rating.
+	
+3) User wants to see reviews for a piece of media content
+	Home --> Click "Search Media --> User enters name of the media --> On key up, list refreshes with a fuzzy search --> User finds correct item --> Presses on item --> Brought to media info page --> Sees aggregate rating graph --> taps on graph --> brought to Rating page that shows graph.
+	
+4) User wants to rate content not in the database
+	Home --> Click "Search Media" --> User enters name of the media --> On key up, list refreshes with a fuzzy search --> User does not find correct result --> Press "Add Media" --> Brought to "Add media" page --> Enters media info --> Press "create" --> brought to media info page --> Presses "Rate" --> brought to Booyah! screen --> Does the rating --> Presses "stop" --> Brought to Media Info page, which now shows user's new rating.
+	
+5) User searches for media content and rates it
+	Home --> Click "Search Media" --> User enters name of the media --> On key up, list refreshes with a fuzzy search --> User finds correct item --> Presses "Rate" --> brought to Booyah! screen --> Does the rating --> Presses "stop" --> Brought to Media Info page, which now shows user's new rating.
+	
+6) Share rating
+	User is on Media info page; user has already made a rating --> User clicks on rating graph --> User is brought to rating page --> User presses "Share" button --> Share behaviour is handled by device

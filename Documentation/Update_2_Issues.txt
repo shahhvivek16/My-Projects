@@ -1,0 +1,9 @@
+ISSUES:	
+	We know how to design, but not how to to implement good-looking layouts in Android studios
+	
+	
+	Did UI designs, but did not do software design. This led to some developers "doing theri own thing" and 
+	
+	
+Changes:
+	DIsabling the creation of new ratings if the user has existing 

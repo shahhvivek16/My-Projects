@@ -1,0 +1,4 @@
+pydub
+mysql-python
+wavio
+pytube

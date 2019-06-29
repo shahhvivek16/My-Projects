@@ -1,0 +1,28 @@
+Good Afternoon,
+
+We of Group 5 industries are proud to Present: BooYah! the time-based media rating application. As the target audience for modern television and movies, your opinions matter. Rating sites like RottenTomatoes.com do a good job of showing overall impressions about a piece of media content, but fail to show exactly what about the media makes it so great, or so dismal. Booyah! fills this gap by allowing your to rate individual moments of your favourite movie, tv show, songs, or virtually any piece of media!
+
+Using Booyah!, you rate especially impaction moments, either "boo!" or "Yah!". For instance, Game of Thrones Episode 1: Cute wolf pups: that's a Yah! Gross decapitation, ehh, that's a Boo!. Ratings for a Booyah! session are assembled into easy-to-view graphs that clearly show the parts you liked and disliked. And of course, when multiple people rate a piece of media, those ratings are aggregated to give show the overall impressions people have of the media. This feedback can then be viewed by the media creators themselves, so that they know what parts people like, and disliked, and adjust their plans for future content accordingly; it's a great way to share your opinion and have it heard, right from the comfort of your own home! During a Booyah! session, you can also move the Pause, fast forwards, and rewind the timer, to let you ensure that your Booyah! timer is in-sync with the time of the media you're rating.
+
+Users of the app can select the media they want to rate from the existing list, or create their own media entries for themselves and other to use. And if the media happens to be a YouTube video, ...
+
+it will be compatible with our sound-recognition technology. This allows you to start the video from any time index, sample 10 seconds of the audio, and have the Booyah! session start up at the sampled time index! Very simple, very easy to use!
+
+BooYah! will be available for Android on the Google Play store, free to download and use. To help you start Booyahing right away, no user-name or password are required; your device is tied to your account.
+
+~2 min
+----
+
+Now then, if you'll allow me to switch gears,...
+
+Now, President Meradith, we know you're thinking about cancelling one of the projects in order to free up some money for the new company yaught. We're here today to remind you of the great benefit BooYah! will bring to the company, and give you a glimps into how much quality work has already gone into the app.
+
+Since the BooYah! will be fun to use, available for free, and have no on-boarding overhead, we can anticipate a high adaptability rate. This will be key because as they BooYah! with the app, they're generating valuable data. We expect that once Booyah! picks up speed, we'll be able to sell that rating data to content creators. By seeing what parts of the media their audience has Booed and Yahed, they'll be well equipped to make smarter production decisions going forward. If we're lucky, we'll even be able to partner with big names like Disney and Netflix, and even have their content indexed in our sound recognition database!
+
+In pre-productioin of this app, several Wireframes were created to help hash-out the design. This influences some key decisions, like how to handle similar media content from different sources, and not to allow users to create multiple ratings for a piece of media content.
+
+The page that was most changed during our design process was the main BooYah! screen. It was determined that 5 rating options would be too many for the user to handle while paying attention to a movie or TV show, and we've trimmed it down to just "LIke" (Yah!) and Dislike "Boo!"
+
+During the UX design, several click streams were created to simulate use cases, and will be used and updated in testing going forward.
+
+~4:15

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Booyah!</string>
+
+    <!--  RatingsActivity  -->
+    <string name="txtMediaTime">00:00</string>
+    <string name="txtMediaTitle">Media Title</string>
+    <string name="lblGood">Yah!</string>
+    <string name="lblBad">Boo!</string>
+    <string name="lblFinished">Finished</string>
+    <string name="lblPause">Pause</string>
+    <string name="lblPlay">Play</string>
+
+    <!-- AddMediaActivity -->
+    <string name="txtAddMedia">Add Media</string>
+    <string name="txtMediaName">Media Name</string>
+    <string name="txtMediaMtype">Media Type</string>
+    <string name="txtMediaDuration">Duration</string>
+    <string name="txtMediaArtist">Artist</string>
+    <string name="txtMediaUrl">Youtube Url (optional)</string>
+
+    <!-- InfoActivity -->
+    <string name="lblMediaAuthor">Author:</string>
+    <string name="lblMediaDescription">Description:</string>
+    <string name="lblMediaDuration">Duration:</string>
+    <string name="lblMediaType">Type:</string>
+    <string name="lblMediaYear">Year:</string>
+    <string name="lblRate">Rate</string>
+    <string name="lblReports">Reports</string>
+    <string name="txtInfoAuthor">John Doe</string>
+    <string name="txtInfoDuration">00:00:00</string>
+    <string name="txtInfoMtype">Television</string>
+    <string name="txtInfoYear">2018</string>
+</resources>

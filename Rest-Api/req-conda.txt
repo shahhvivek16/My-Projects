@@ -1,0 +1,11 @@
+pip
+scipy
+numpy
+matplotlib
+pyaudio
+flask
+flask-restful
+celery
+marshmallow
+flask-sqlalchemy
+flask-jwt-extended

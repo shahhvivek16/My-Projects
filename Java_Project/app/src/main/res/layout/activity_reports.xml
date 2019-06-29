@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorGrey">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/headerNav"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="Please rate the media to see the ratings."
+        android:id="@+id/errorMsg"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerNav"
+        android:id="@+id/body"
+        android:padding="5dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/userRatingsTxtView"
+        />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="wrap_content"
+        android:layout_height="300dip"
+        android:id="@+id/graph"
+        android:layout_below="@id/userRatingsTxtView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:id="@+id/AggregateRatingsTxtView"
+        android:layout_below="@id/graph"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:id="@+id/graphAggregate"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/AggregateRatingsTxtView"
+        />
+
+</RelativeLayout>
+
+<android.support.design.widget.FloatingActionButton
+android:id="@+id/fabSample"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="end|bottom"
+android:layout_alignParentBottom="true"
+android:layout_alignParentEnd="true"
+android:src="@drawable/ic_nav_cc_sampling_plus"
+android:layout_marginRight="10dp"
+android:layout_marginBottom="10dp"
+app:backgroundTint="@color/colorWhite" />
+    </RelativeLayout>
